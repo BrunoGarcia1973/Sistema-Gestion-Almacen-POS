@@ -13,7 +13,7 @@ A lo largo del desarrollo de este sistema, me enfoqué en aplicar buenas prácti
 * **Control de Acceso Basado en Roles (RBAC):** Sistema de seguridad a nivel de Servlets y JSP que restringe el acceso a las rutas según 3 niveles de privilegios:
     1. **Cajero:** Acceso exclusivo al módulo de ventas y cobro.
     2. **Supervisor:** Acceso a reportes financieros y gestión de stock.
-    3. **Administrador:** Control total, incluyendo el panel de gestión de usuarios.
+    3. **Administrador de usuarios:** Panel de gestión de usuarios.
 * **Cálculo Transaccional Dinámico:** Lógica financiera que aplica y desglosa automáticamente recargos de pasarelas de pago (ej. Mercado Pago) en la vista del cliente, manteniendo la ganancia neta intacta en la base de datos y reportes.
 
 ## 🛠️ Tecnologías Utilizadas
