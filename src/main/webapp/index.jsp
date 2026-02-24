@@ -117,34 +117,67 @@
 </head>
 <body>
 
-<%--
-<%--        <%ControladoraLogica controladoraLogica = new ControladoraLogica();--%>
-<%--        Rol rol = new Rol();--%>
-<%--        rol.setTipoRol("adminAlmacen");--%>
-<%--        rol.setDescripRol("Administrar carga y modificacion de stock en almacen");--%>
-<%--        controladoraLogica.crearRol(rol); %>--%>
-<%--        Rol rol1 = new Rol();--%>
-<%--        rol1.setTipoRol("comun");--%>
-<%--        rol1.setDescripRol("Atencion y cobro al cliente, sin carga de stock ");--%>
-<%--        controladoraLogica.crearRol(rol1);--%>
-<%--        Usuario usuario = new Usuario();--%>
-<%--        usuario.setEmail("bagar206@gmail.com");--%>
-<%--        usuario.setNombreUser("admin1");--%>
-<%--        String contra1 = "cuarteto";--%>
-<%--        String contra1Crifrada = BCrypt.hashpw(contra1, BCrypt.gensalt());--%>
-<%--        usuario.setContraseña(contra1Crifrada);--%>
-<%--        usuario.setCelular("3516011123");--%>
-<%--        usuario.setRol(rol);--%>
-<%--        controladoraLogica.crearUser(usuario);--%>
-<%--        Usuario usuario1 = new Usuario();--%>
-<%--        usuario1.setEmail("laurabiagioli@hotamil.com.ar");--%>
-<%--        usuario1.setNombreUser("user1");--%>
-<%--        String contra2 = "bruno";--%>
-<%--        String contra2Cifrada = BCrypt.hashpw(contra2, BCrypt.gensalt());--%>
-<%--        usuario1.setContraseña(contra2Cifrada);--%>
-<%--        usuario1.setCelular("3512743946");--%>
-<%--        usuario1.setRol(rol1);--%>
-<%--        controladoraLogica.crearUser(usuario1);--%>
+<%--&lt;%&ndash;--%>
+<%--&lt;%&ndash;        <%ControladoraLogica controladoraLogica = new ControladoraLogica();&ndash;%&gt;--%>
+<%--&lt;%&ndash;        // ==========================================--%>
+<%--    // 1. CREACIÓN DE ROLES--%>
+<%--    // ==========================================--%>
+<%--    --%>
+<%--    // Rol Almacén--%>
+<%--    Rol rol = new Rol();--%>
+<%--    rol.setTipoRol("adminAlmacen");--%>
+<%--    rol.setDescripRol("Administrar carga y modificacion de stock en almacen");--%>
+<%--    controladoraLogica.crearRol(rol); --%>
+
+<%--    // Rol Común (Cajero)--%>
+<%--    Rol rol1 = new Rol();--%>
+<%--    rol1.setTipoRol("comun");--%>
+<%--    rol1.setDescripRol("Atencion y cobro al cliente, sin carga de stock");--%>
+<%--    controladoraLogica.crearRol(rol1);--%>
+
+<%--    // Rol Administrador de Usuarios (EL NUEVO)--%>
+<%--    Rol rol2 = new Rol();--%>
+<%--    rol2.setTipoRol("adminUser");--%>
+<%--    rol2.setDescripRol("Administrar usuarios");--%>
+<%--    controladoraLogica.crearRol(rol2);--%>
+
+
+<%--    // ==========================================--%>
+<%--    // 2. CREACIÓN DE USUARIOS INICIALES--%>
+<%--    // ==========================================--%>
+
+<%--    // Usuario Almacén--%>
+<%--    Usuario usuario = new Usuario();--%>
+<%--    usuario.setEmail("bagar206@gmail.com");--%>
+<%--    usuario.setNombreUser("admin1");--%>
+<%--    String contra1 = "cuarteto";--%>
+<%--    String contra1Cifrada = BCrypt.hashpw(contra1, BCrypt.gensalt());--%>
+<%--    usuario.setContraseña(contra1Cifrada);--%>
+<%--    usuario.setCelular("3516011123");--%>
+<%--    usuario.setRol(rol);--%>
+<%--    controladoraLogica.crearUser(usuario);--%>
+
+<%--    // Usuario Común (Caja)--%>
+<%--    Usuario usuario1 = new Usuario();--%>
+<%--    usuario1.setEmail("laurabiagioli@hotamil.com.ar");--%>
+<%--    usuario1.setNombreUser("user1");--%>
+<%--    String contra2 = "bruno";--%>
+<%--    String contra2Cifrada = BCrypt.hashpw(contra2, BCrypt.gensalt());--%>
+<%--    usuario1.setContraseña(contra2Cifrada);--%>
+<%--    usuario1.setCelular("3512743946");--%>
+<%--    usuario1.setRol(rol1);--%>
+<%--    controladoraLogica.crearUser(usuario1);--%>
+
+<%--    // Usuario Administrador (El Jefe Maestro)--%>
+<%--    Usuario usuario2 = new Usuario();--%>
+<%--    usuario2.setEmail("admin_sistema@gmail.com");--%>
+<%--    usuario2.setNombreUser("superadmin");--%>
+<%--    String contra3 = "admin123"; // Podés cambiarla por la que quieras--%>
+<%--    String contra3Cifrada = BCrypt.hashpw(contra3, BCrypt.gensalt());--%>
+<%--    usuario2.setContraseña(contra3Cifrada);--%>
+<%--    usuario2.setCelular("3510000000"); --%>
+<%--    usuario2.setRol(rol2);--%>
+<%--    controladoraLogica.crearUser(usuario2);--%>
 
 
 <%--    %>--%>
