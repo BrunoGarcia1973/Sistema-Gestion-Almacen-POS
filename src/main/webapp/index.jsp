@@ -121,11 +121,11 @@
 <%--        <%ControladoraLogica controladoraLogica = new ControladoraLogica();--%>
 <%--        Rol rol = new Rol();--%>
 <%--        rol.setTipoRol("adminAlmacen");--%>
-<%--        rol.setDescripRol("Administrar usuario carga y modificacion de stock en almacen");--%>
+<%--        rol.setDescripRol("Administrar carga y modificacion de stock en almacen");--%>
 <%--        controladoraLogica.crearRol(rol); %>--%>
 <%--        Rol rol1 = new Rol();--%>
 <%--        rol1.setTipoRol("comun");--%>
-<%--        rol1.setDescripRol("Administracion stock almacen sin carga de stock nueva");--%>
+<%--        rol1.setDescripRol("Atencion y cobro al cliente, sin carga de stock ");--%>
 <%--        controladoraLogica.crearRol(rol1);--%>
 <%--        Usuario usuario = new Usuario();--%>
 <%--        usuario.setEmail("bagar206@gmail.com");--%>
